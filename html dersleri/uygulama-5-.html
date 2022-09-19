@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="register.php">
+      <div>
+        <label for="name">adiniz</label>
+        <input type="text" id="name" />
+      </div>
+
+      <div>
+        <label for="surname">soyadiniz</label>
+        <input type="text" id="surname" />
+      </div>
+
+      <div>
+        <label for="parola">parola</label>
+        <input type="password" id="parola" />
+      </div>
+
+      <div>
+        <label for="birthday">dogum tarihi</label>
+        <input type="date" id="birthday" name="birthday" />
+      </div>
+
+      <div>
+        <lable for="intro">kendin hakkinda</lable>
+        <textarea id="indro" cols="30" rows="2"></textarea>
+      </div>
+
+      <div>
+        <p>en sevdigim programlama dili:</p>
+        <input type="radio" id="html" name="programlama" />
+        <lable for="html">html</lable>
+
+        <input type="radio" id="css" name="programlama" />
+        <lable for="css">css</lable>
+
+        <input type="radio" id="javascript" name="programlama" />
+        <lable for="javascript">javascript</lable>
+      </div>
+
+      <div>
+        <p>en sevdigim programlama dili:</p>
+        <input type="checkbox" id="html2" />
+        <lable for="html2">html</lable>
+
+        <input type="checkbox" id="css2" />
+        <lable for="css2">css</lable>
+
+        <input type="checkbox" id="javascript2" />
+        <lable for="javascript2">javascript</lable>
+      </div>
+
+      <div>
+        <label for="cities">sehir</label>
+        <select id="cities">
+          <option value="41">kocaeli</option>
+          <option value="34">istanbul</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="eposta">email</label>
+        <input type="email" id="eposta" />
+      </div>
+
+      <button type="submit">kaydet</button>
+      <button type="reset">temizle</button>
+
+      <!-- html forms diye araqtarak arastirma yapabilirsin web 3 school iyi bir site -->
+    </form>
+  </body>
+</html>
